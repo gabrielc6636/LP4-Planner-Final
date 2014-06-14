@@ -21,8 +21,30 @@ $legajo = $_SESSION['username'];
 
 <img alt="fondo" src="img/bg.png"  id="full-screen-background-image" />
     <div id="head">
-    	<img src="img/logoplanner_small.png" />
-        
+    	<div class="logoplanner">
+    		<a href="user_page.php"><img src="img/logoplanner_small.png" /></a>
+        </div>
+        <div id="botonera">
+                <div id='cssmenu'>
+                    <ul>
+                      
+                       <li><a href='user_page_materiasalta.php'><span>Registro</span></a></li>
+                       <li class='has-sub'><a href='#'><span>Consulta</span></a>
+                          <ul>
+                             <li><a href='user_page_consulta.php'><span>Materias Aprobadas</span></a></li>
+                             <li class='last'><a href='user_page_oferta.php'><span>Materias Ofertadas</span></a></li>
+                          </ul>
+                       </li>
+                       <li><a href='#'><span>Contacto</span></a></li>
+                       <li class='has-sub last'><a href='#'><span>Alumno</span></a>
+                          <ul>
+                             <li><a href='#'><span>Mis Datos</span></a></li>
+                             <li class='last'><a href='#'><span>Cerrar Sesi&#243;n</span></a></li>
+                          </ul>
+                       </li>
+                    </ul>
+                </div>
+        </div>
     </div>
 <div class="ss-form-container"> 
 
@@ -98,13 +120,13 @@ break;
 </div>
 
 	<div id="footer">
-   	  <div style="float:right;margin-top: 10px;">
-        	<p style="margin:0px;color: #CCC;font-size:10px">Disponible en</p>
-        	<img src="img/android.png" />
+   	  <div style="float:right;margin-top: 5px;">
+        	
+        	<img src="img/android_sitio.png" />
         </div>
     </div>
     <div id="footer2" align="center" style="color:#CCCCCC;">
-    	<p style="font-size:10px;margin:0;padding-top:8px;">Copyright© 2014 - Todos los derechos reservados a Academic Planner</p>
+    	<p style="font-size:10px;margin:0;padding-top:8px;">Copyright&#169; 2014 - Todos los derechos reservados a Academic Planner</p>
     </div>
 
 
