@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Strict//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Prueba</title>
+<SCRIPT src="prueba.js"></SCRIPT>
+  
+</head>
+<body>
+
+
+  <h3>Muestra de campos dinámicos</h3>
+  
+  
+  
+  <h1>Ejemplo de formulario dinámico</h1>
+
+<form id="my-dynamic-form" action="prueba.php" method="post">
+<select size="1" name="personas" onchange="expandir_formulario()" > 
+<option value="0">?</option> 
+<option value="1">1</option> 
+<option value="2">2</option> 
+<option value="3">3</option> 
+<option value="4">4</option> 
+<option value="5">5</option> 
+</select>
+<input type="submit" value="Guardar" name="Guardar">
+</form>
+
+<button id="add-field-button">
+    Agrega un campo
+</button>
+  
+
+</body>
+</html>
