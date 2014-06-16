@@ -281,7 +281,7 @@ and c.idCarrera = ".$idCarrera." order by 2";
 	   $con = new DBManager;
 	   if($con->conectar()==true){
 		
-		$query = "select Legajo,Concat(Apellido,' ',Nombre) as Nombre from Alumno where Legajo = ".$Legajo." order by 2";
+		$query = "select Legajo,Concat(Apellido,' ',Nombre) as Nombre,documento as dni from Alumno where Legajo = ".$Legajo." order by 2";
 		
 		
 		
