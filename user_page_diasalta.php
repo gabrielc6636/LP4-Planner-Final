@@ -15,12 +15,40 @@ $resultado = 'Bienvenido, '.$_SESSION['fname'].' '.$_SESSION['lname'];
 						</head><body>
 						
 						<img alt="fondo" src="img/bg.png"  id="full-screen-background-image" />
-							<div id="head"><div class="logoplanner"><a href="user_page.php"><img src="img/logoplanner_small.png" /></a></div>
-							<div id="botonera"><div id="cssmenu"><ul><li><a href="user_page_materiasalta.php"><span>Registro</span></a></li>
-							<li class="has-sub"><a href="#"><span>Consulta</span></a><ul><li><a href="user_page_consulta.php"><span>Materias Aprobadas</span></a></li>
-							<li class="last"><a href="user_page_oferta.php"><span>Materias Ofertadas</span></a></li></ul></li>
-							<li><a href="#"><span>Contacto</span></a></li><li class="has-sub last"><a href="#"><span>Alumno</span></a>
-							<ul><li><a href="#"><span>Mis Datos</span></a></li><li class="last"><a href="#"><span>Cerrar Sesi&#243;n</span></a></li></ul></li></ul></div></div></div>
+    <div id="head">
+    	<div class="logoplanner">
+    		<a href="user_page.php"><img src="img/logoplanner_small.png" /></a>
+        </div>
+        <div id="botonera">
+                <div id='cssmenu'>
+                    <ul>
+                      
+                       <li class='has-sub'><a href='#'><span>Registro</span></a>
+                       		<ul>
+                             <li><a href='user_page_materiasalta.php'><span>Materias</span></a></li>
+                             <li class='last'><a href='user_page_diasalta.php'><span>Horario</span></a></li>
+                          </ul>
+                       </li>
+                       <li class='has-sub'><a href='#'><span>Consulta</span></a>
+                          <ul>
+                             <li><a href='user_page_consulta.php'><span>Materias Aprobadas</span></a></li>
+                             <li class='last'><a href='user_page_oferta.php'><span>Materias Ofertadas</span></a></li>
+                          </ul>
+                       </li>
+                       <li><a href='#'><span>Contacto</span></a></li>
+                       <li class='has-sub last'><a href='#'><span>Alumno</span></a>
+                          <ul>
+                             <li><a href='#'><span>Mis Datos</span></a></li>
+                             <li class='last'><a href='#'><span>Cerrar Sesi&#243;n</span></a></li>
+                          </ul>
+                       </li>
+                    </ul>
+                </div>
+        </div>
+    </div>
+                            
+                            
+                            
 						<div class="ss-form-container"><div class="ss-form-heading"><h1>Carga de Disponibilidad</h1></div>
 						
 							
@@ -29,8 +57,8 @@ $resultado = 'Bienvenido, '.$_SESSION['fname'].' '.$_SESSION['lname'];
 							<table><caption></caption>
 							<thead>
 								<tr>
-									<th scope="col">DÍA</th>
-									<th scope="col">MAÑANA</th>
+									<th scope="col">D&#205;A</th>
+									<th scope="col">MA&#209;ANA</th>
 									<th scope="col">TARDE</th>
 									<th scope="col">NOCHE</th>
 								</tr>
@@ -61,7 +89,7 @@ $resultado = 'Bienvenido, '.$_SESSION['fname'].' '.$_SESSION['lname'];
 								
 								<tr class="odd">
 														
-								<th scope="row">MIERCOLES</th>
+								<th scope="row">MI&#201;RCOLES</th>
 								
 								<td><input type="checkbox" name="opt_3_1" value="1"></td>
 								<td><input type="checkbox" name="opt_3_2" value="1"></td>								
@@ -103,4 +131,4 @@ $resultado = 'Bienvenido, '.$_SESSION['fname'].' '.$_SESSION['lname'];
 							
 							<input type="submit" value="Guardar" name="Guardar"></form>
 							
-							</div><div id="footer"><div style="float:right;margin-top: 5px;"><img src="img/android_sitio.png" /></div></div><div id="footer2" align="center" style="color:#CCCCCC;"><p style="font-size:10px;margin:0;padding-top:8px;">Copyright© 2014 - Todos los derechos reservados a Academic Planner</p></div></body></html>
+							</div><div id="footer"><div style="float:right;margin-top: 5px;"><img src="img/android_sitio.png" /></div></div><div id="footer2" align="center" style="color:#CCCCCC;"><p style="font-size:10px;margin:0;padding-top:8px;">Copyrightï¿½ 2014 - Todos los derechos reservados a Academic Planner</p></div></body></html>

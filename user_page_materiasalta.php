@@ -19,7 +19,7 @@ $legajo = $_SESSION['username'];
 <body>
 
 
-<img alt="fondo" src="img/bg.png"  id="full-screen-background-image" />
+					<img alt="fondo" src="img/bg.png"  id="full-screen-background-image" />
     <div id="head">
     	<div class="logoplanner">
     		<a href="user_page.php"><img src="img/logoplanner_small.png" /></a>
@@ -28,7 +28,12 @@ $legajo = $_SESSION['username'];
                 <div id='cssmenu'>
                     <ul>
                       
-                       <li><a href='user_page_materiasalta.php'><span>Registro</span></a></li>
+                       <li class='has-sub'><a href='#'><span>Registro</span></a>
+                       		<ul>
+                             <li><a href='user_page_materiasalta.php'><span>Materias</span></a></li>
+                             <li class='last'><a href='user_page_diasalta.php'><span>Horario</span></a></li>
+                          </ul>
+                       </li>
                        <li class='has-sub'><a href='#'><span>Consulta</span></a>
                           <ul>
                              <li><a href='user_page_consulta.php'><span>Materias Aprobadas</span></a></li>

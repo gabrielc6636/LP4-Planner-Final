@@ -58,7 +58,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#415a71', end
 #botonera{
 	
 height: 68px;
-width: 537px;
+width: 557px;
 float: right;
 position: relative;
 margin-top: -64px;
@@ -600,4 +600,4 @@ background-clip: padding-box;
   #cssmenu ul ul li.has-sub > a::after {
     display: none;
   }
-}
+
