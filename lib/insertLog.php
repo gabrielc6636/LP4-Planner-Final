@@ -186,6 +186,74 @@ class claseLog{
 		}
 	}
 	
+	function baja_horario_alumno($Legajo){
+	   $con = new DBManager;
+	   if($con->conectar()==true){
+		
+		
+		/*echo $result;
+			if (!$result){
+			   echo 'Error get_tiempo';
+			}else{*/
+				$query = "delete from Alumno_Horarios where idAlumno in (select idAlumno from Alumno where Legajo = ".$Legajo.")";
+				$result = @mysql_query($query);
+		/*
+					if (!$result){
+					   echo 'Error get_tiempo';
+					}else{*/
+						//$campo = mysql_fetch_array($result);
+						//echo $campo['idAlumno'];
+						/*
+					}
+				
+			}*/
+			
+			//$query = "INSERT INTO CorridaLog(fecha,idLog,ip) VALUES (CURRENT_TIMESTAMP,1, '".$_SERVER['REMOTE_ADDR']."')";
+		
+		
+		
+		
+		//$query = "insert into Alumno_Horarios(idAlumno,idHorario_Semana) VALUES ((select idAlumno from Alumno where Legajo = ".$Legajo."),(select idHorario_Semana from Horario_Semana where idDiaSemana = ".$dia." and idSegmentoHorario = ".$hora."))";
+		//echo $query;
+		//$result = @mysql_query($query);
+		
+		}
+	}
+	
+	function alta_horario_alumno($Legajo,$dia,$hora){
+	   $con = new DBManager;
+	   if($con->conectar()==true){
+		
+		
+		/*echo $result;
+			if (!$result){
+			   echo 'Error get_tiempo';
+			}else{*/
+				//$query = "delete from Alumno_Horarios where idAlumno in (select idAlumno from Alumno where Legajo = ".$Legajo.")";
+				//$result = @mysql_query($query);
+		/*
+					if (!$result){
+					   echo 'Error get_tiempo';
+					}else{*/
+						//$campo = mysql_fetch_array($result);
+						//echo $campo['idAlumno'];
+						/*
+					}
+				
+			}*/
+			
+			//$query = "INSERT INTO CorridaLog(fecha,idLog,ip) VALUES (CURRENT_TIMESTAMP,1, '".$_SERVER['REMOTE_ADDR']."')";
+		
+		
+		
+		
+		$query = "insert into Alumno_Horarios(idAlumno,idHorario_Semana) VALUES ((select idAlumno from Alumno where Legajo = ".$Legajo."),(select idHorario_Semana from Horario_Semana where idDiaSemana = ".$dia." and idSegmentoHorario = ".$hora."))";
+		//echo $query;
+		$result = @mysql_query($query);
+		
+		}
+	}
+	
 	
 	function get_corrida_ins(){
 	   $con = new DBManager;
@@ -281,7 +349,7 @@ and c.idCarrera = ".$idCarrera." order by 2";
 	   $con = new DBManager;
 	   if($con->conectar()==true){
 		
-		$query = "select Legajo,Concat(Apellido,' ',Nombre) as Nombre,documento as dni from Alumno where Legajo = ".$Legajo." order by 2";
+		$query = "select Legajo,Concat(Apellido,' ',Nombre) as Nombre from Alumno where Legajo = ".$Legajo." order by 2";
 		
 		
 		
