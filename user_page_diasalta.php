@@ -71,9 +71,9 @@ $resultado = 'Bienvenido, '.$_SESSION['fname'].' '.$_SESSION['lname'];
 														
 								<th scope="row">LUNES</th>
 								
-								<td><input type="checkbox" name="opt_1_1" value="1"></td>
-								<td><input type="checkbox" name="opt_1_2" value="1"></td>								
-								<td><input type="checkbox" name="opt_1_3" value="1"></td>
+								<td><input style="margin:0; width:252px;" type="checkbox" name="opt_1_1" value="1"></td>
+								<td><input style="margin:0; width:252px;" type="checkbox" name="opt_1_2" value="1"></td>								
+								<td><input style="margin:0; width:252px;" type="checkbox" name="opt_1_3" value="1"></td>
 								
 								</tr>
 								
@@ -81,9 +81,9 @@ $resultado = 'Bienvenido, '.$_SESSION['fname'].' '.$_SESSION['lname'];
 														
 								<th scope="row">MARTES</th>
 								
-								<td><input type="checkbox" name="opt_2_1" value="1"></td>
-								<td><input type="checkbox" name="opt_2_2" value="1"></td>								
-								<td><input type="checkbox" name="opt_2_3" value="1"></td>
+								<td><input style="margin:0; width:252px;" type="checkbox" name="opt_2_1" value="1"></td>
+								<td><input style="margin:0; width:252px;" type="checkbox" name="opt_2_2" value="1"></td>								
+								<td><input style="margin:0; width:252px;" type="checkbox" name="opt_2_3" value="1"></td>
 								
 								</tr>
 								
@@ -91,9 +91,9 @@ $resultado = 'Bienvenido, '.$_SESSION['fname'].' '.$_SESSION['lname'];
 														
 								<th scope="row">MI&#201;RCOLES</th>
 								
-								<td><input type="checkbox" name="opt_3_1" value="1"></td>
-								<td><input type="checkbox" name="opt_3_2" value="1"></td>								
-								<td><input type="checkbox" name="opt_3_3" value="1"></td>
+								<td><input style="margin:0; width:252px;" type="checkbox" name="opt_3_1" value="1"></td>
+								<td><input style="margin:0; width:252px;" type="checkbox" name="opt_3_2" value="1"></td>								
+								<td><input style="margin:0; width:252px;" type="checkbox" name="opt_3_3" value="1"></td>
 								
 								</tr>
 								
@@ -101,9 +101,9 @@ $resultado = 'Bienvenido, '.$_SESSION['fname'].' '.$_SESSION['lname'];
 														
 								<th scope="row">JUEVES</th>
 								
-								<td><input type="checkbox" name="opt_4_1" value="1"></td>
-								<td><input type="checkbox" name="opt_4_2" value="1"></td>								
-								<td><input type="checkbox" name="opt_4_3" value="1"></td>
+								<td><input style="margin:0; width:252px;" type="checkbox" name="opt_4_1" value="1"></td>
+								<td><input style="margin:0; width:252px;" type="checkbox" name="opt_4_2" value="1"></td>								
+								<td><input style="margin:0; width:252px;" type="checkbox" name="opt_4_3" value="1"></td>
 								
 								</tr>
 								
@@ -111,9 +111,9 @@ $resultado = 'Bienvenido, '.$_SESSION['fname'].' '.$_SESSION['lname'];
 														
 								<th scope="row">VIERNES</th>
 								
-								<td><input type="checkbox" name="opt_5_1" value="1"></td>
-								<td><input type="checkbox" name="opt_5_2" value="1"></td>								
-								<td><input type="checkbox" name="opt_5_3" value="1"></td>
+								<td><input style="margin:0; width:252px;" type="checkbox" name="opt_5_1" value="1"></td>
+								<td><input style="margin:0; width:252px;" type="checkbox" name="opt_5_2" value="1"></td>								
+								<td><input style="margin:0; width:252px;" type="checkbox" name="opt_5_3" value="1"></td>
 								
 								</tr>
 								
@@ -121,9 +121,9 @@ $resultado = 'Bienvenido, '.$_SESSION['fname'].' '.$_SESSION['lname'];
 														
 								<th scope="row">SABADO</th>
 								
-								<td><input type="checkbox" name="opt_6_1" value="1"></td>
-								<td><input type="checkbox" name="opt_6_2" value="1"></td>								
-								<td><input type="checkbox" name="opt_6_3" value="1"></td>
+								<td><input style="margin:0; width:252px;" type="checkbox" name="opt_6_1" value="1"></td>
+								<td><input style="margin:0; width:252px;" type="checkbox" name="opt_6_2" value="1"></td>								
+								<td><input style="margin:0; width:252px;" type="checkbox" name="opt_6_3" value="1"></td>
 								
 								</tr>
 								
