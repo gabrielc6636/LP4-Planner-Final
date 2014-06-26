@@ -38,7 +38,7 @@ $legajo = $_SESSION['username'];
                           <ul>
                              <li><a href='user_page_consulta.php'><span>Materias Aprobadas</span></a></li>
                              <li><a href='user_page_oferta.php'><span>Materias Ofertadas</span></a></li>
-                             <li class='last'><a href='construccion.html'><span>Materias Habilitadas</span></a></li>
+                             <li class='last'><a href='user_page_habilitadas.php'><span>Materias Habilitadas</span></a></li>
                           </ul>
                        </li>
                        <li><a href='construccion.html'><span>Contacto</span></a></li>
