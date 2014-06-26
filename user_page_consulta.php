@@ -37,14 +37,15 @@ $legajo = $_SESSION['username'];
                        <li class='has-sub'><a href='#'><span>Consulta</span></a>
                           <ul>
                              <li><a href='user_page_consulta.php'><span>Materias Aprobadas</span></a></li>
-                             <li class='last'><a href='user_page_oferta.php'><span>Materias Ofertadas</span></a></li>
+                             <li><a href='user_page_oferta.php'><span>Materias Ofertadas</span></a></li>
+                             <li class='last'><a href='construccion.html'><span>Materias Habilitadas</span></a></li>
                           </ul>
                        </li>
-                       <li><a href='#'><span>Contacto</span></a></li>
+                       <li><a href='construccion.html'><span>Contacto</span></a></li>
                        <li class='has-sub last'><a href='#'><span>Alumno</span></a>
                           <ul>
-                             <li><a href='#'><span>Mis Datos</span></a></li>
-                             <li class='last'><a href='#'><span>Cerrar Sesi&#243;n</span></a></li>
+                             <li><a href='construccion.html'><span>Mis Datos</span></a></li>
+                             <li class='last'><a href='index.html'><span>Cerrar Sesi&#243;n</span></a></li>
                           </ul>
                        </li>
                     </ul>
