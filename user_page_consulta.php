@@ -128,8 +128,8 @@ break;
 	<div id="footer">
    	  <div style="float:right;margin-top: 5px;">
         	
-        	<img src="img/android_sitio.png" />
-        </div>
+       	<a href="descarga.html"><img src="img/android_sitio.png" /></a>
+      </div>
     </div>
     <div id="footer2" align="center" style="color:#CCCCCC;">
     	<p style="font-size:10px;margin:0;padding-top:8px;">Copyright&#169; 2014 - Todos los derechos reservados a Academic Planner</p>

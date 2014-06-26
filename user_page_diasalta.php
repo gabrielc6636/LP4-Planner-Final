@@ -132,4 +132,17 @@ $resultado = 'Bienvenido, '.$_SESSION['fname'].' '.$_SESSION['lname'];
 							
 							<input type="submit" value="Guardar" name="Guardar"></form>
 							
-							</div><div id="footer"><div style="float:right;margin-top: 5px;"><img src="img/android_sitio.png" /></div></div><div id="footer2" align="center" style="color:#CCCCCC;"><p style="font-size:10px;margin:0;padding-top:8px;">Copyright� 2014 - Todos los derechos reservados a Academic Planner</p></div></body></html>
+							</div>
+                            
+                            
+      <div id="footer">
+      	<div style="float:right;margin-top: 5px;">
+        	<a href="descarga.html"><img src="img/android_sitio.png" /></a>
+        </div>
+      </div>
+      
+      <div id="footer2" align="center" style="color:#CCCCCC;">
+      	<p style="font-size:10px;margin:0;padding-top:8px;">Copyright� 2014 - Todos los derechos reservados a Academic Planner</p>
+      </div>
+ 	</body>
+</html>

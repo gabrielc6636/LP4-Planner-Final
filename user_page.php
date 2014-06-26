@@ -81,8 +81,7 @@ $resultado = 'Bienvenido, '.$_SESSION['fname'].' '.$_SESSION['lname'];
 
 	<div id="footer">
    	  <div style="float:right;margin-top: 5px;">
-        	
-        	<img src="img/android_sitio.png" />
+        	<a href="descarga.html"><img src="img/android_sitio.png" /></a>
         </div>
     </div>
     <div id="footer2" align="center" style="color:#CCCCCC;">
