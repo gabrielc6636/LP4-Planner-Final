@@ -514,6 +514,56 @@ and c.idCarrera = ".$idCarrera." order by 2";
 			}
 		}
 	}
+	
+	function get_oferta_academica(){
+	   $con = new DBManager;
+	   if($con->conectar()==true){
+		
+		$query = "select 
+					/*a.Año as Year,a.Cuatrimestre,*/
+					/*c.idComision,*/
+					c.NumeroReferencia as NumComision,
+					c.idMateria as NumMateria,
+					m.Nombre,
+					m.CargaHoraria,
+					ds.DiaSemana,
+					sh.HoraDesde as Desde,
+					sh.HoraHasta as Hasta,
+					s.Nombre as Sede,
+					au.Descripcion as Aula
+
+					from Comision c, 
+								  Materia m,
+								  Comision_Horario ch,
+								  Horario_Semana hs,
+								  SegmentoHorario sh,
+								  DiaSemana ds,
+								  AñoCuatrimestre a,
+								  Aula_Sede us,
+								  Aula au,
+								  Sede s
+					where m.idMateria = c.idMateria 
+					  and ch.idComision = c.idComision
+					  and hs.idHorario_Semana = ch.idHorario_Semana
+					  and hs.idSegmentoHorario = sh.idSegmentoHorario
+					  and hs.idDiaSemana = ds.idDiaSemana
+					  and a.idAñoCuatrimestre = c.idAñoCuatrimestre
+					  and us.idAula_Sede = ch.idAula_Sede
+					  and au.idAula = us.idAula
+					  and s.idSede = us.idSede
+					  
+					  order by ds.idDiaSemana,sh.idSegmentoHorario,s.Nombre,au.Descripcion";
+								
+		$result = @mysql_query($query);
+		//echo $result;
+		
+			if (!$result){
+			   echo 'Error get_oferta_academica';
+			}else{
+				return $result;
+			}
+		}
+	}
  
  }
 ?>

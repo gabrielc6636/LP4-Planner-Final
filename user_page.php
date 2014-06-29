@@ -32,8 +32,9 @@ $resultado = 'Bienvenido, '.$_SESSION['fname'].' '.$_SESSION['lname'];
                        <li class='has-sub'><a href='#'><span>Consulta</span></a>
                           <ul>
                              <li><a href='user_page_consulta.php'><span>Materias Aprobadas</span></a></li>
-                             <li><a href='user_page_oferta.php'><span>Materias Ofertadas</span></a></li>
-                             <li class='last'><a href='user_page_habilitadas.php'><span>Materias Habilitadas</span></a></li>
+                             <li><a href='user_page_habilitadas.php'><span>Materias Pendientes</span></a></li>
+							 <li><a href='user_page_academica.php'><span>Oferta Academica</span></a></li>
+                             <li class='last'><a href='user_page_oferta.php'><span>Oferta Cursable</span></a></li>
                           </ul>
                        </li>
                        <li><a href='construccion.html'><span>Contacto</span></a></li>
@@ -52,14 +53,14 @@ $resultado = 'Bienvenido, '.$_SESSION['fname'].' '.$_SESSION['lname'];
     <div class="ss-form-container"> 
     	<label><?php echo $resultado; ?></label> 
         <br><br>
-    	<div id="progreso" align="center">
+    	<!--<div id="progreso" align="center">
 			<p>Progreso de la Carrera</p>
             <div>45%</div>
                  	<div class="progress-bar green stripes">
                      
                         <span style="width: 45%"></span>
                     </div>
-         </div>
+         </div>-->
          <br><br>
 
             <!--<div class="ss-form-heading">

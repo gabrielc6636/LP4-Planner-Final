@@ -1,4 +1,4 @@
-
+ 
 	$(document).ready(function(){
 		$("#calcular").click(
 			function(){
@@ -12,10 +12,9 @@
 				
 				$.ajax(
 					{
-					data:  {Legajo: id },
 					type: "GET",
 					dataType: "json",
-					url: "CargaOferta.php",
+					url: "CargaOfertaAcademica.php",
 					success: function(data){
 						var i = 0;
 						var size = data.length;
@@ -54,7 +53,7 @@
 							//alert(size);
 						
 						var tabla = "<html xmlns='http://www.w3.org/1999/xhtml'><head><meta http-equiv='Content-Type' content='text/html; charset=utf-8' />";
-							tabla = tabla + "<title>Oferta Cursable</title>";
+							tabla = tabla + "<title>Oferta Academica</title>";
 							tabla = tabla + "<link href='layout01.css' rel='stylesheet' type='text/css' />";
 							tabla = tabla + "<link href='styles/sesion.css' rel='stylesheet' type='text/css' />";
 							tabla = tabla + "</head><body>";
@@ -91,7 +90,8 @@
 											tabla = tabla + "</div>";
 									tabla = tabla + "</div>";
 							tabla = tabla + "</div>";
-							tabla = tabla + "<div class='ss-form-container'><div class='ss-form-heading'><h1>Oferta Cursable</h1></div>";
+							
+							tabla = tabla + "<div class='ss-form-container'><div class='ss-form-heading'><h1>Oferta Academica</h1></div>";
 							
 								//var tabla = "<html xmlns='http://www.w3.org/1999/xhtml'><head><meta http-equiv='Content-Type' content='text/html; charset=utf-8' /><title>Materias por Alumno</title><link href='layout01.css' rel='stylesheet' type='text/css' /></head><body>";
 								tabla = tabla + "<table><caption>MATERIAS"; 
@@ -105,8 +105,7 @@
 									tabla = tabla+ "<tr class='odd'>";
 															
 									tabla = tabla+ "<th scope='row'>"+data[i].NumComision+"</th>";
-									//tabla = tabla+ "<td>"+data[i].Cuatrimestre+"</td>";
-									//tabla = tabla+ "<td>"+data[i].NumComision+"</td>";
+									
 									tabla = tabla+ "<td>"+data[i].NumMateria+"</td>";
 									
 									tabla = tabla+ "<td>"+data[i].Nombre+"</td>";

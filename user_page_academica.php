@@ -55,7 +55,7 @@ $legajo = $_SESSION['username'];
     </div>
 <div class="ss-form-container"> 
 
-<div class="ss-form-heading"><h1>Consultar materias aprobadas</h1> <label><?php echo $resultado; ?></label>
+<div class="ss-form-heading"><h1>Consultar Oferta Académica</h1> <label><?php echo $resultado; ?></label>
 
 
 </div> 
@@ -121,7 +121,7 @@ break;
 
       </script>
 	  <script type="text/javascript" src="js/jquery.js"></script>
-<script type="text/javascript" src="js/calcular.js"></script>
+<script type="text/javascript" src="js/ofertaacademica.js"></script>
 
 
 </div>
@@ -130,7 +130,7 @@ break;
    	  <div style="float:right;margin-top: 5px;">
         	
        	<a href="descarga.html"><img src="img/android_sitio.png" /></a>
-        </div>
+      </div>
     </div>
     <div id="footer2" align="center" style="color:#CCCCCC;">
     	<p style="font-size:10px;margin:0;padding-top:8px;">Copyright&#169; 2014 - Todos los derechos reservados a Academic Planner</p>

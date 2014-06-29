@@ -32,8 +32,9 @@ $resultado = 'Bienvenido, '.$_SESSION['fname'].' '.$_SESSION['lname'];
                        <li class='has-sub'><a href='#'><span>Consulta</span></a>
                           <ul>
                              <li><a href='user_page_consulta.php'><span>Materias Aprobadas</span></a></li>
-                             <li><a href='user_page_oferta.php'><span>Materias Ofertadas</span></a></li>
-                             <li class='last'><a href='user_page_habilitadas.php'><span>Materias Habilitadas</span></a></li>
+                             <li><a href='user_page_habilitadas.php'><span>Materias Pendientes</span></a></li>
+							 <li><a href='user_page_academica.php'><span>Oferta Academica</span></a></li>
+                             <li class='last'><a href='user_page_oferta.php'><span>Oferta Cursable</span></a></li>
                           </ul>
                        </li>
                        <li><a href='construccion.html'><span>Contacto</span></a></li>
@@ -133,8 +134,6 @@ $resultado = 'Bienvenido, '.$_SESSION['fname'].' '.$_SESSION['lname'];
 							<input type="submit" value="Guardar" name="Guardar"></form>
 							
 							</div>
-                            
-                            
       <div id="footer">
       	<div style="float:right;margin-top: 5px;">
         	<a href="descarga.html"><img src="img/android_sitio.png" /></a>

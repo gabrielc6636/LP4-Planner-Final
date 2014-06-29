@@ -37,8 +37,9 @@ $legajo = $_SESSION['username'];
                        <li class='has-sub'><a href='#'><span>Consulta</span></a>
                           <ul>
                              <li><a href='user_page_consulta.php'><span>Materias Aprobadas</span></a></li>
-                             <li><a href='user_page_oferta.php'><span>Materias Ofertadas</span></a></li>
-                             <li class='last'><a href='user_page_habilitadas.php'><span>Materias Habilitadas</span></a></li>
+                             <li><a href='user_page_habilitadas.php'><span>Materias Pendientes</span></a></li>
+							 <li><a href='user_page_academica.php'><span>Oferta Academica</span></a></li>
+                             <li class='last'><a href='user_page_oferta.php'><span>Oferta Cursable</span></a></li>
                           </ul>
                        </li>
                        <li><a href='construccion.html'><span>Contacto</span></a></li>
@@ -54,7 +55,7 @@ $legajo = $_SESSION['username'];
     </div>
 <div class="ss-form-container"> 
 
-<div class="ss-form-heading"><h1>Consultar materias habilitadas</h1> <label><?php echo $resultado; ?></label>
+<div class="ss-form-heading"><h1>Consultar materias pendientes</h1> <label><?php echo $resultado; ?></label>
 
 
 </div> 
@@ -120,7 +121,7 @@ break;
 
       </script>
 	  <script type="text/javascript" src="js/jquery.js"></script>
-<script type="text/javascript" src="js/calcular.js"></script>
+<script type="text/javascript" src="js/habilitadas.js"></script>
 
 
 </div>
