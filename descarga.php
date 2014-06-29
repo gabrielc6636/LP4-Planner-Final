@@ -32,9 +32,8 @@ $resultado = 'Bienvenido, '.$_SESSION['fname'].' '.$_SESSION['lname'];
                        <li class='has-sub'><a href='#'><span>Consulta</span></a>
                           <ul>
                              <li><a href='user_page_consulta.php'><span>Materias Aprobadas</span></a></li>
-                             <li><a href='user_page_habilitadas.php'><span>Materias Pendientes</span></a></li>
-							 <li><a href='user_page_academica.php'><span>Oferta Academica</span></a></li>
-                             <li class='last'><a href='user_page_oferta.php'><span>Oferta Cursable</span></a></li>
+                             <li><a href='user_page_oferta.php'><span>Materias Ofertadas</span></a></li>
+                             <li class='last'><a href='user_page_habilitadas.php'><span>Materias Habilitadas</span></a></li>
                           </ul>
                        </li>
                        <li><a href='construccion.html'><span>Contacto</span></a></li>
@@ -50,34 +49,23 @@ $resultado = 'Bienvenido, '.$_SESSION['fname'].' '.$_SESSION['lname'];
     </div>
     
     
-    <div class="ss-form-container"> 
-    	<label><?php echo $resultado; ?></label> 
-        <br><br>
-    	<!--<div id="progreso" align="center">
-			<p>Progreso de la Carrera</p>
-            <div>45%</div>
-                 	<div class="progress-bar green stripes">
-                     
-                        <span style="width: 45%"></span>
-                    </div>
-         </div>-->
-         <br><br>
-
-            <!--<div class="ss-form-heading">
-            	
-                <div align="center">
-                <form action="user_page_materiasalta.php" class="registrar">
-            		<input type="submit" value="Registrar Materias">
-                    
-            	</form>
-                <form action="user_page_consulta.php">
-                	<input type="submit" value="Consultar Materias Aprobadas">
-                </form>
-				<form action="user_page_oferta.php">
-                	<input type="submit" value="Consultar Materias Ofertadas">
-                </form>
-               	</div>
-            </div> -->
+<div class="ss-form-container"> 
+	<div class="ss-form-heading" align="center">
+    	<p> Descarga la APK de Android para llevar Academic Planner con vos en tu celular</p>
+            
+      
+        <p> Descipcion: <br>
+        La APK de Academic Planner consiste en una aplicacion util para celulares con sistema operativo	       Android. La misma te permite hacer consultas de tu hisoria academica, las materias aprobadas y las materias a las que estas habilitado a cursar, ademas de ver el progreso de tu carrera y tiene la informacion actualizada de la pagina de Academic Plannertrae en donde quieras que estes con tu celular.<p>
+        
+        
+		<img src=""
+        
+		<p>Compatible con Android 2.3.6 en adelante</p>
+    	<a href="planner.apk" ><h1>Descargar</h1></a>
+        
+        <p> Problemas con la instalacion del APK en Android? Clic ACA</p>
+        <p> Sugerencias/Comentarios: Clic aqui <p>
+    </div>
 </div>
 
 	<div id="footer">
