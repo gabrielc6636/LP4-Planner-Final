@@ -50,21 +50,27 @@ $resultado = 'Bienvenido, '.$_SESSION['fname'].' '.$_SESSION['lname'];
     
     
 <div class="ss-form-container"> 
-	<div class="ss-form-heading" align="center">
+	<div class="ss-form-heading" align="justify">
+    	
+
     	<p> Descarga la APK de Android para llevar Academic Planner con vos en tu celular</p>
             
       
         <p> Descipcion: <br>
-        La APK de Academic Planner consiste en una aplicacion util para celulares con sistema operativo	       Android. La misma te permite hacer consultas de tu hisoria academica, las materias aprobadas y las materias a las que estas habilitado a cursar, ademas de ver el progreso de tu carrera y tiene la informacion actualizada de la pagina de Academic Plannertrae en donde quieras que estes con tu celular.<p>
+        La APK de Academic Planner consiste en una aplicacion util para celulares con sistema operativo	Android. La misma te permite hacer consultas de tu hisoria academica, las materias aprobadas y las materias a las que estas habilitado a cursar, ademas de ver el progreso de tu carrera y tiene la informacion actualizada de la pagina de Academic Plannertrae en donde quieras que estes con tu celular.<p>
         
+        <p>Compatible con Android 2.3.6 en adelante</p>
         
-		<img src=""
+        <div class="imagenes" align="center">
+		        <a href="img/caps/android01.png"><img src="img/caps/android01.png" height="200" width="150"/>
+                <a href="img/caps/android02.png"><img src="img/caps/android02.png" height="200" width="150"/>
+                <a href="img/caps/android03.png"><img src="img/caps/android03.png" height="200" width="150"/>
+        </div>
         
-		<p>Compatible con Android 2.3.6 en adelante</p>
-    	<a href="planner.apk" ><h1>Descargar</h1></a>
-        
-        <p> Problemas con la instalacion del APK en Android? Clic ACA</p>
-        <p> Sugerencias/Comentarios: Clic aqui <p>
+    	<a href="planner.apk" ><h1 align="center">Descargar</h1></a> 
+                
+        <p> Problemas con la instalacion del APK en Android? <a href="construccion.html">Clic aqui</a></p>
+        <p> Sugerencias/Comentarios: <a href="construccion.html">Clic aqui</a></p>		
     </div>
 </div>
 
