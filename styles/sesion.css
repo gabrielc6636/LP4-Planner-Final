@@ -85,6 +85,41 @@ margin-top: -64px;
 	padding-left: 2em;
 }
 
+.footerparte1{
+	float: left;
+	color: #CCC;
+	font-family: Verdana,Geneva,sans-serif;
+	width: 150px;
+	font-size: 12px;
+	margin-top: 8px;
+	width: 185px;
+	border-right-width: thin;
+	border-right-style: groove;
+	border-right-color: #FF6600;
+	padding-top: 10px;
+}
+
+.footerparte2{
+	float: left;
+color: #CCC;
+font-family: Verdana,Geneva,sans-serif;
+font-size: 12px;
+margin-top: 8px;
+width: 570px;
+border-right: thin groove #F60;
+padding-top: 10px;
+padding-left: 35px;
+height: 55px;
+}
+
+a{ 
+color:#CCCCCC; 
+} 
+a:hover{ 
+color:#FF6600; 
+} 
+
+
 #footer2{
 	height:15px;
 	width: 900px;
