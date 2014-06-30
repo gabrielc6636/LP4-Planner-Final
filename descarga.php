@@ -79,9 +79,9 @@ a:active {
    <p>Compatible con Android 2.3.6 en adelante</p>
         
         <div class="imagenes" align="center">
-		        <a href="img/caps/android01.png"><img src="img/caps/android01.png" height="200" width="150"/>
-                <a href="img/caps/android02.png"><img src="img/caps/android02.png" height="200" width="150"/>
-                <a href="img/caps/android03.png"><img src="img/caps/android03.png" height="200" width="150"/>
+		        <a href="img/caps/android01.png"><img src="img/caps/android01.png" height="250" width="150"/>
+                <a href="img/caps/android02.png"><img src="img/caps/android02.png" height="250" width="150"/>
+                <a href="img/caps/android03.png"><img src="img/caps/android03.png" height="250" width="150"/>
         </div>
         
     	<h1 align="center" ><a style="color:#F60" href="planner.apk" >Descargar</a></h1> 
@@ -91,7 +91,26 @@ a:active {
   </div>
 </div>
 
-	<div id="footer">
+<div id="footer">
+		<div class="footerparte1">
+			<div style="float:left;margin-right: 10px;margin-top: 5px;">        
+        		<img src="img/logoplannerfooter.png" width="30" height="28" />
+            </div>
+            <div style="float:left;width: 110px;margin-top: -16px;">
+        		<p>Para una carrera con mayor organizaci&#243;n.</p>
+           	</div>
+        </div>    
+        <div class="footerparte2">
+        	<div style="margin-left:20px;margin-top: 12px;">
+                <div style="float:left;margin-right: 45px;"> <a href="construccion.html">Registro</a> </div>    
+                <div style="float:left;margin-right: 45px;">|</div>
+                <div style="float:left;margin-right: 45px;"> <a href="construccion.html">Consulta</a> </div>    
+                <div style="float:left;margin-right: 45px;">|</div>
+                <div style="float:left;margin-right: 45px;"> <a href="construccion.html">Contacto</a> </div>    
+                <div style="float:left;margin-right: 45px;">|</div>
+                <div style="float:left;margin-right: 45px;"> <a href="construccion.html">Alumno </a></div>    
+            </div>
+        </div>
    	  <div style="float:right;margin-top: 5px;">
         	<a href="descarga.php"><img src="img/android_sitio.png" /></a>
         </div>
