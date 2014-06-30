@@ -61,6 +61,9 @@ $resultado = 'Bienvenido, '.$_SESSION['fname'].' '.$_SESSION['lname'];
                         <span style="width: 45%"></span>
                     </div>
          </div>-->
+         <div align="center">
+         	<img src="img/main.jpg" />
+         </div>
          <br><br>
 
             <!--<div class="ss-form-heading">
